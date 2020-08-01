@@ -1,6 +1,12 @@
 <?php 
     session_start();
     include('init.php');
+
+    // $authLogin = false;
+    // if(isset($_SESSION['auth.login'])) {
+    //     $authLogin = true;
+    // }
+
     $user = authGetUser();
     $pageCanonical = HOST . BASE_URL;
     $uri = $_SERVER['REQUEST_URI'];
@@ -41,5 +47,5 @@
         'content' => $pageContent,
         'canonical' => $pageCanonical
     ]);
-    
+    var_dump($user);
     echo $html;

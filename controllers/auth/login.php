@@ -18,6 +18,8 @@
 					setcookie('token', $token, time() + 3600 * 24 * 30, BASE_URL);
 				}
 
+				// $_SESSION['auth.login'] = true;
+
 				header('Location: ' . BASE_URL);
 				exit();
 			}

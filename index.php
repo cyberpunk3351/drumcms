@@ -1,4 +1,5 @@
 <?php 
+    session_start();
     include('init.php');
     $user = authGetUser();
     $pageCanonical = HOST . BASE_URL;

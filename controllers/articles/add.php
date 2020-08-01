@@ -12,7 +12,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
 
 	if(empty($validateErrors)) {
 		articlesAdd($fields);
-		header('Location: index.php');
+		header('Location: '. BASE_URL);
 		exit();
 	}
 } else {

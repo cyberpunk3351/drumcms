@@ -21,9 +21,11 @@
 				<li class="nav-item">
 					<a class="nav-link" href="<?=BASE_URL?>">Home</a>
 				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="<?=BASE_URL?>add">Add</a>
-				</li>
+				<? if ($authErr): ?>
+					<li class="nav-item">
+						<a class="nav-link" href="<?=BASE_URL?>add">Add</a>
+					</li>
+				<? endif; ?>
 				<li class="nav-item">
 					<a class="nav-link" href="<?=BASE_URL?>contacts">Contacts</a>
 				</li>

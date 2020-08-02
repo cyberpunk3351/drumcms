@@ -44,11 +44,6 @@
 	<footer class="site-footer">
 		<div class="container">
 			&copy; site about all
-			<?if($user == null):?>
-				<p>bla bla</p>
-			<? else: ?>
-				<p>bla21212121 bla</p>
-			<? endif; ?>
 		</div>
 	</footer>
 </body>

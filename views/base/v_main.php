@@ -25,8 +25,6 @@
 					<li class="nav-item">
 					<?if($user !== null):?>
 						<a class="nav-link" href="<?=BASE_URL?>add">Add</a>
-					<? else: ?>
-						<a class="nav-link" href="<?=BASE_URL?>add">Add2</a>
 					<? endif; ?>
 					</li>
 				<li class="nav-item">

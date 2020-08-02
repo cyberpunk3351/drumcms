@@ -45,8 +45,7 @@
     $html = template('base/v_main', [
         'title' => $pageTitle,
         'content' => $pageContent,
-        'canonical' => $pageCanonical
-        'user' => $user
-        
+        'canonical' => $pageCanonical,
+        'user' => $user        
     ]);
     echo $html;

@@ -45,9 +45,8 @@
     $html = template('base/v_main', [
         'title' => $pageTitle,
         'content' => $pageContent,
-        'canonical' => $pageCanonical,
+        'canonical' => $pageCanonical
         'user' => $user
         
     ]);
-    var_dump($user);
     echo $html;

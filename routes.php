@@ -18,6 +18,16 @@
         'controller' => 'contacts'
       ],
       [
+        'test' => "/^article\/($intGT0)\/edit\/?$/",
+        'controller' => 'articles/edit',
+        'params' => ['id' => 1]
+      ],
+      [
+        'test' => "/^article\/($intGT0)\/delete\/?$/",
+        'controller' => 'articles/delete',
+        'params' => ['id' => 1]
+      ],
+      [
         'test' => "/^article\/($intGT0)\/?$/",
         'controller' => 'articles/one',
         'params' => ['id' => 1]

@@ -21,7 +21,7 @@
         $pageContent = template('base/v_con2col', [
             'left' => $left,
             'content' => $content,
-            'title' => $pageTitle
+            'title' => $pageTitle,
         ]);
 		
 	} else {

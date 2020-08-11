@@ -46,6 +46,6 @@
         'title' => $pageTitle,
         'content' => $pageContent,
         'canonical' => $pageCanonical,
-        'user' => $user        
+        'user' => $user
     ]);
     echo $html;
